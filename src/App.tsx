@@ -1,8 +1,10 @@
-
+import Home from "./components/home"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      < Home />
+    </div>
   )
 }
 
