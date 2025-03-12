@@ -2,8 +2,9 @@ import imgBuilding from "./assets/building.png";
 
 const About = () => {
   return (
+    <div id="about">
     <div>
-      <div className="flex justify-between items-center px-[10rem] pt-[3rem] ">
+      <div className="flex justify-between items-center px-[10rem] pt-[3rem] pb-20 ">
         <div className="w-[80rem] pr-[5rem]">
           <h2 className="text-[3rem] font-semibold text-Poppins pb-[2rem]">
             We are <span className="font-bold">TechState</span>
@@ -35,6 +36,7 @@ const About = () => {
           <img src={imgBuilding} alt="Building pic" width={1000} height={350} />
         </div>
       </div>
+    </div>
     </div>
   );
 };
