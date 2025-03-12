@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    
             </nav>
-            <Link to="/market" className="hover:underline">
+            <Link to="/market" className="">
             <span className='bg-blue-300 text-black   hover:bg-blue-600 px-6 py-1 rounded-[.5rem]'> Market </span>
             </Link>
         
