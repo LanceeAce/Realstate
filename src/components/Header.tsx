@@ -1,4 +1,5 @@
 import logo from './assets/logo.png'
+import { Link } from "react-router-dom";
     
     export const Header = () => {
       return (
@@ -17,7 +18,9 @@ import logo from './assets/logo.png'
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    
             </nav>
-            <span className='bg-blue-300 text-black   hover:bg-blue-600 px-6 py-1 rounded-[.5rem]'> <a href='/market'>Market</a> </span>
+            <Link to="/market" className="hover:underline">
+            <span className='bg-blue-300 text-black   hover:bg-blue-600 px-6 py-1 rounded-[.5rem]'> Market </span>
+            </Link>
         
             
        

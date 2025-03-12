@@ -1,5 +1,6 @@
 import imgBuilding from "./assets/building.png";
 
+
 const About = () => {
   return (
     <div id="about">

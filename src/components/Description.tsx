@@ -5,13 +5,10 @@ import icon3 from "./assets/icon3.png";
 
 const Description = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between pt-[11.5rem] pb-[1rem] px-[5rem] lg:px-[15rem] gap-20">
-      <div className="w-full lg:w-[50rem] flex justify-center">
-        <img
-          src={imgHouse}
-          alt="House picture"
-          className="w-full max-w-[700px] h-auto"
-        />
+    <div id="service">
+    <div className="block md:flex justify-between  pb-[10rem]  gap-20">
+      <div className="w-[50rem] flex ">
+        <img src={imgHouse} alt="House picture" width={700} height={200} />
       </div>
 
       <div className="w-full">
@@ -65,6 +62,7 @@ const Description = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
