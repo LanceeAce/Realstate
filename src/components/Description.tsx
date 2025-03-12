@@ -6,7 +6,7 @@ import icon3 from "./assets/icon3.png";
 const Description = () => {
   return (
     <div id="service">
-    <div className="block md:flex justify-between  pb-[10rem]  gap-20">
+    <div className=" flex justify-between  pb-[10rem]  gap-20">
       <div className="w-[50rem] flex ">
         <img src={imgHouse} alt="House picture" width={700} height={200} />
       </div>
