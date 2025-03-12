@@ -9,9 +9,9 @@ import logo from './assets/logo.png'
             <nav className="flex">
   <ul className="flex space-x-6 text-black">
     <li><a href="#" className="hover:text-gray-400">Home</a></li>
-    <li><a href="#" className="hover:text-gray-400">Service</a></li>
+    <li><a href="#service" className="hover:text-gray-400">Service</a></li>
     <li><a href="#featured" className="hover:text-gray-400">Featured</a></li>
-    <li><a href="#" className="hover:text-gray-400">Feedback</a></li>
+    <li><a href="#feedback" className="hover:text-gray-400">Feedback</a></li>
     <li><a href="#about" className="hover:text-gray-400">About</a></li>
   </ul> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
