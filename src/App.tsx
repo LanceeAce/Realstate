@@ -1,11 +1,12 @@
-import Home from "./components/home"
-
+import Home from "./components/home";
+import About from "./components/About";
 const App = () => {
   return (
     <div>
-      < Home />
+      <Home />
+      <About />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
