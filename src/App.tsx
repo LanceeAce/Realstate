@@ -16,7 +16,6 @@ const App = () => {
       <Featured />
       <Feedback />
       <About />
-      
     </div>
   );
 };
